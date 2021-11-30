@@ -1,0 +1,48 @@
+*.iml
+.gradle
+
+/local.properties
+
+.DS_Store
+
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Windows thumbnail db
+Thumbs.db
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+/*/local.properties
+/*/out
+/*/*/build
+build
+#/*/*/production/google-services.json
+#/*/*/production/app.properties
+#/*/*/production/keystore.properties
+#/*/*/production/sls.jks
+*.iws
+*.ipr
+*~
+*.swp
