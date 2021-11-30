@@ -10,4 +10,3 @@ dependencyResolutionManagement {
 rootProject.name = "AlwaysCenterTabLayout"
 include ':app'
 include ':center_tab_layout'
-include ':centertablayout'
