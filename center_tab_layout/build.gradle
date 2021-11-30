@@ -51,7 +51,7 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'com.github.jameleee'
-                artifactId = 'always-center-tablayout'
+                artifactId = 'center-tab-layout'
 
                 version = '1.0.0'
             }

@@ -13,15 +13,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:stl_defaultTabTextColor="@color/black"
-        app:stl_defaultTabTextHorizontalPadding="30dp"
-        app:stl_defaultTabTextMinWidth="120dp"
-        app:stl_dividerThickness="0dp"
-        app:stl_indicatorColor="@color/purple_200"
-        app:stl_indicatorCornerRadius="1.5dp"
-        app:stl_indicatorInterpolation="smart"
-        app:stl_indicatorThickness="0dp"
-        app:stl_underlineColor="@android:color/transparent" />
+        app:acl_defaultTabTextColor="@color/black"
+        app:acl_defaultTabTextHorizontalPadding="30dp"
+        app:acl_defaultTabTextMinWidth="120dp"
+        app:acl_dividerThickness="0dp"
+        app:acl_indicatorColor="@color/purple_200"
+        app:acl_indicatorCornerRadius="1.5dp"
+        app:acl_indicatorInterpolation="smart"
+        app:acl_indicatorThickness="0dp"
+        app:acl_underlineColor="@android:color/transparent" />
 
     <ImageView
         android:layout_width="58dp"
