@@ -115,37 +115,37 @@ internal class CustomTabLayout @JvmOverloads constructor(context: Context, attrs
         var customTabTextViewId = NO_ID
         var clickable = TAB_CLICKABLE
         var titleOffset = (TITLE_OFFSET_DIPS * density).toInt()
-        val a = context.obtainStyledAttributes(attrs, R.styleable.stl_SmartTabLayout, defStyle, 0)
+        val a = context.obtainStyledAttributes(attrs, R.styleable.acl_CenterTabLayout, defStyle, 0)
         tabBackgroundResId = a.getResourceId(
-            R.styleable.stl_SmartTabLayout_stl_defaultTabBackground, tabBackgroundResId
+            R.styleable.acl_CenterTabLayout_acl_defaultTabBackground, tabBackgroundResId
         )
         textAllCaps = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_defaultTabTextAllCaps, textAllCaps
+            R.styleable.acl_CenterTabLayout_acl_defaultTabTextAllCaps, textAllCaps
         )
-        textColors = a.getColorStateList(R.styleable.stl_SmartTabLayout_stl_defaultTabTextColor)
+        textColors = a.getColorStateList(R.styleable.acl_CenterTabLayout_acl_defaultTabTextColor)
         textSize = a.getDimension(
-            R.styleable.stl_SmartTabLayout_stl_defaultTabTextSize, textSize
+            R.styleable.acl_CenterTabLayout_acl_defaultTabTextSize, textSize
         )
         textHorizontalPadding = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_defaultTabTextHorizontalPadding, textHorizontalPadding
+            R.styleable.acl_CenterTabLayout_acl_defaultTabTextHorizontalPadding, textHorizontalPadding
         )
         textMinWidth = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_defaultTabTextMinWidth, textMinWidth
+            R.styleable.acl_CenterTabLayout_acl_defaultTabTextMinWidth, textMinWidth
         )
         customTabLayoutId = a.getResourceId(
-            R.styleable.stl_SmartTabLayout_stl_customTabTextLayoutId, customTabLayoutId
+            R.styleable.acl_CenterTabLayout_acl_customTabTextLayoutId, customTabLayoutId
         )
         customTabTextViewId = a.getResourceId(
-            R.styleable.stl_SmartTabLayout_stl_customTabTextViewId, customTabTextViewId
+            R.styleable.acl_CenterTabLayout_acl_customTabTextViewId, customTabTextViewId
         )
         distributeEvenly = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_distributeEvenly, distributeEvenly
+            R.styleable.acl_CenterTabLayout_acl_distributeEvenly, distributeEvenly
         )
         clickable = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_clickable, clickable
+            R.styleable.acl_CenterTabLayout_acl_clickable, clickable
         )
         titleOffset = a.getLayoutDimension(
-            R.styleable.stl_SmartTabLayout_stl_titleOffset, titleOffset
+            R.styleable.acl_CenterTabLayout_acl_titleOffset, titleOffset
         )
         a.recycle()
         this.titleOffset = titleOffset

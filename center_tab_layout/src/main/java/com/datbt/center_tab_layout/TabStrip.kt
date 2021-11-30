@@ -112,57 +112,57 @@ internal class TabStrip(context: Context, attrs: AttributeSet?) : LinearLayout(c
         var dividerThickness = (DEFAULT_DIVIDER_THICKNESS_DIPS * density).toInt()
         var drawDecorationAfterTab = DEFAULT_DRAW_DECORATION_AFTER_TAB
 
-        val a = context.obtainStyledAttributes(attrs, R.styleable.stl_SmartTabLayout)
+        val a = context.obtainStyledAttributes(attrs, R.styleable.acl_CenterTabLayout)
         indicatorWithoutPadding = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_indicatorWithoutPadding, indicatorWithoutPadding
+            R.styleable.acl_CenterTabLayout_acl_indicatorWithoutPadding, indicatorWithoutPadding
         )
         indicatorInFront = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_indicatorInFront, indicatorInFront
+            R.styleable.acl_CenterTabLayout_acl_indicatorInFront, indicatorInFront
         )
         indicationInterpolatorId = a.getInt(
-            R.styleable.stl_SmartTabLayout_stl_indicatorInterpolation, indicationInterpolatorId
+            R.styleable.acl_CenterTabLayout_acl_indicatorInterpolation, indicationInterpolatorId
         )
         indicatorGravity = a.getInt(
-            R.styleable.stl_SmartTabLayout_stl_indicatorGravity, indicatorGravity
+            R.styleable.acl_CenterTabLayout_acl_indicatorGravity, indicatorGravity
         )
         indicatorColor = a.getColor(
-            R.styleable.stl_SmartTabLayout_stl_indicatorColor, indicatorColor
+            R.styleable.acl_CenterTabLayout_acl_indicatorColor, indicatorColor
         )
         indicatorColorsId = a.getResourceId(
-            R.styleable.stl_SmartTabLayout_stl_indicatorColors, indicatorColorsId
+            R.styleable.acl_CenterTabLayout_acl_indicatorColors, indicatorColorsId
         )
         indicatorThickness = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_indicatorThickness, indicatorThickness
+            R.styleable.acl_CenterTabLayout_acl_indicatorThickness, indicatorThickness
         )
         indicatorWidth = a.getLayoutDimension(
-            R.styleable.stl_SmartTabLayout_stl_indicatorWidth, indicatorWidth
+            R.styleable.acl_CenterTabLayout_acl_indicatorWidth, indicatorWidth
         )
         indicatorCornerRadius = a.getDimension(
-            R.styleable.stl_SmartTabLayout_stl_indicatorCornerRadius, indicatorCornerRadius
+            R.styleable.acl_CenterTabLayout_acl_indicatorCornerRadius, indicatorCornerRadius
         )
         overlineColor = a.getColor(
-            R.styleable.stl_SmartTabLayout_stl_overlineColor, overlineColor
+            R.styleable.acl_CenterTabLayout_acl_overlineColor, overlineColor
         )
         overlineThickness = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_overlineThickness, overlineThickness
+            R.styleable.acl_CenterTabLayout_acl_overlineThickness, overlineThickness
         )
         underlineColor = a.getColor(
-            R.styleable.stl_SmartTabLayout_stl_underlineColor, underlineColor
+            R.styleable.acl_CenterTabLayout_acl_underlineColor, underlineColor
         )
         underlineThickness = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_underlineThickness, underlineThickness
+            R.styleable.acl_CenterTabLayout_acl_underlineThickness, underlineThickness
         )
         dividerColor = a.getColor(
-            R.styleable.stl_SmartTabLayout_stl_dividerColor, dividerColor
+            R.styleable.acl_CenterTabLayout_acl_dividerColor, dividerColor
         )
         dividerColorsId = a.getResourceId(
-            R.styleable.stl_SmartTabLayout_stl_dividerColors, dividerColorsId
+            R.styleable.acl_CenterTabLayout_acl_dividerColors, dividerColorsId
         )
         dividerThickness = a.getDimensionPixelSize(
-            R.styleable.stl_SmartTabLayout_stl_dividerThickness, dividerThickness
+            R.styleable.acl_CenterTabLayout_acl_dividerThickness, dividerThickness
         )
         drawDecorationAfterTab = a.getBoolean(
-            R.styleable.stl_SmartTabLayout_stl_drawDecorationAfterTab, drawDecorationAfterTab
+            R.styleable.acl_CenterTabLayout_acl_drawDecorationAfterTab, drawDecorationAfterTab
         )
         a.recycle()
         val indicatorColors = if (indicatorColorsId == NO_ID) intArrayOf(indicatorColor) else resources.getIntArray(indicatorColorsId)
